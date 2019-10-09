@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d2b6f233300052eea28752513cc3131",
+    "content-hash": "1c4de099f35840ee1d2f3fffc0eabfc9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -427,16 +427,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "fa4c4e861e809d6a1103bd620cce63ed91aedfeb"
+                "reference": "904dca4eb10715b92569fbcd79e201d5c349b6bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/fa4c4e861e809d6a1103bd620cce63ed91aedfeb",
-                "reference": "fa4c4e861e809d6a1103bd620cce63ed91aedfeb",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/904dca4eb10715b92569fbcd79e201d5c349b6bc",
+                "reference": "904dca4eb10715b92569fbcd79e201d5c349b6bc",
                 "shasum": ""
             },
             "require": {
@@ -445,7 +445,7 @@
             },
             "require-dev": {
                 "doctrine/cache": "1.*",
-                "phpunit/phpunit": "^7.5@dev"
+                "phpunit/phpunit": "^7.5"
             },
             "type": "library",
             "extra": {
@@ -491,7 +491,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2019-08-08T18:11:40+00:00"
+            "time": "2019-10-01T18:55:10+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1975,16 +1975,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.7.2",
+            "version": "8.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "31c01fe3b4eb8817e8ef127382a67c9e9d78e1a9"
+                "reference": "32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/31c01fe3b4eb8817e8ef127382a67c9e9d78e1a9",
-                "reference": "31c01fe3b4eb8817e8ef127382a67c9e9d78e1a9",
+                "url": "https://api.github.com/repos/drupal/core/zipball/32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92",
+                "reference": "32e1d7a67bbc28f07dc43d9ff692c0e90a4aeb92",
                 "shasum": ""
             },
             "require": {
@@ -2009,7 +2009,7 @@
                 "ext-xml": "*",
                 "guzzlehttp/guzzle": "^6.2.1",
                 "masterminds/html5": "^2.1",
-                "paragonie/random_compat": "^1.0|^2.0",
+                "paragonie/random_compat": "^1.0|^2.0|^9.99.99",
                 "pear/archive_tar": "^1.4",
                 "php": "^5.5.9|>=7.0.8",
                 "stack/builder": "^1.0",
@@ -2034,7 +2034,8 @@
                 "zendframework/zend-feed": "^2.4"
             },
             "conflict": {
-                "drush/drush": "<8.1.10"
+                "drush/drush": "<8.1.10",
+                "symfony/dom-crawler": ">=4"
             },
             "replace": {
                 "drupal/action": "self.version",
@@ -2219,7 +2220,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-05-23T07:22:46+00:00"
+            "time": "2019-09-04T10:26:35+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2925,7 +2926,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1539588781",
+                    "datestamp": "1570284187",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2984,7 +2985,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.0-rc1",
-                    "datestamp": "1558647185",
+                    "datestamp": "1558678323",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -3121,22 +3122,22 @@
         },
         {
             "name": "drupal/h5p",
-            "version": "1.0.0-rc14",
+            "version": "1.0.0-rc16",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/h5p.git",
-                "reference": "8.x-1.0-rc14"
+                "reference": "8.x-1.0-rc16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/h5p-8.x-1.0-rc14.zip",
-                "reference": "8.x-1.0-rc14",
-                "shasum": "f402e7fc7321696ae554438ddcbcc1b031a6f179"
+                "url": "https://ftp.drupal.org/files/projects/h5p-8.x-1.0-rc16.zip",
+                "reference": "8.x-1.0-rc16",
+                "shasum": "734eef496c512b324161c5da3903f3890dc7fb67"
             },
             "require": {
                 "drupal/core": "*",
-                "h5p/h5p-core": "1.22.0",
-                "h5p/h5p-editor": "1.22.0"
+                "h5p/h5p-core": "1.23.1",
+                "h5p/h5p-editor": "1.23.1"
             },
             "type": "drupal-module",
             "extra": {
@@ -3144,8 +3145,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc14",
-                    "datestamp": "1565897888",
+                    "version": "8.x-1.0-rc16",
+                    "datestamp": "1565963289",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -3625,23 +3626,22 @@
         },
         {
             "name": "drupal/message",
-            "version": "1.0.0-rc2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/message.git",
-                "reference": "8.x-1.0-rc2"
+                "reference": "8.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/message-8.x-1.0-rc2.zip",
-                "reference": "8.x-1.0-rc2",
-                "shasum": "8c74e4e98fd6bfa19728f499dc5f14ce29f5ba17"
+                "url": "https://ftp.drupal.org/files/projects/message-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "873b3d8030d47bd472d75472f293b7631a59eeaf"
             },
             "require": {
                 "drupal/core": "*"
             },
             "require-dev": {
-                "drupal/coder": "^8.2",
                 "drupal/token": "*"
             },
             "type": "drupal-module",
@@ -3650,11 +3650,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc2",
-                    "datestamp": "1524519784",
+                    "version": "8.x-1.0",
+                    "datestamp": "1570139286",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -3692,17 +3692,17 @@
         },
         {
             "name": "drupal/message_notify",
-            "version": "1.0.0-beta1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/message_notify.git",
-                "reference": "8.x-1.0-beta1"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/message_notify-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "085a628bd859b4fb861bb46a8c8a00d668a248ad"
+                "url": "https://ftp.drupal.org/files/projects/message_notify-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "b4d5c10d2242f36d69938fb7c3951f7607206988"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -3714,11 +3714,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1",
-                    "datestamp": "1490992382",
+                    "version": "8.x-1.1",
+                    "datestamp": "1570149785",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -3995,7 +3995,7 @@
         },
         {
             "name": "drupal/opigno_alter_entity_autocomplete",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "require": {
                 "drupal/core": "~8.0",
                 "drupal/opigno_learning_path": "self.version"
@@ -4006,8 +4006,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.7",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4036,19 +4036,20 @@
         },
         {
             "name": "drupal/opigno_calendar",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_calendar.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_calendar-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "e94626129d5f737ab350a6961cb81b165e05ec0a"
+                "url": "https://ftp.drupal.org/files/projects/opigno_calendar-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "580af6078057309c1f0d3a62b3240d195c4e491f"
             },
             "require": {
+                "drupal/calendar": "1.x-dev#73e2979",
                 "drupal/core": "*",
                 "drupal/opigno_calendar_event": "*",
                 "drupal/opigno_learning_path": "*",
@@ -4060,8 +4061,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1559752389",
+                    "version": "8.x-1.3",
+                    "datestamp": "1570005784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4070,7 +4071,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -4082,8 +4083,8 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 }
             ],
-            "description": "Add opigno calendar event integration.",
-            "homepage": "https://www.drupal.org/project/opigno_calendar",
+            "description": "Opigno Calendar Module.",
+            "homepage": "http://drupal.org/project/opigno_calendar",
             "support": {
                 "source": "https://git.drupalcode.org/project/opigno_calendar"
             }
@@ -4199,22 +4200,22 @@
         },
         {
             "name": "drupal/opigno_certificate",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_certificate.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_certificate-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "9ab1fd27c0fe11176820734b38ebef2b16629c2d"
+                "url": "https://ftp.drupal.org/files/projects/opigno_certificate-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "f09416117e3ea7885c4c1e0ba68276a1fe7fd69d"
             },
             "require": {
                 "drupal/core": "*",
                 "drupal/token_filter": "*",
-                "drupal/view_mode_selector": "*"
+                "drupal/view_mode_selector": "1.x-dev#11c9ad2"
             },
             "type": "drupal-module",
             "extra": {
@@ -4222,8 +4223,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.4",
+                    "datestamp": "1570005784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4232,7 +4233,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -4244,25 +4245,25 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 }
             ],
-            "description": "Provides a certificate entity type.",
-            "homepage": "https://www.drupal.org/project/opigno_certificate",
+            "description": "Opigno Certificate Module.",
+            "homepage": "http://drupal.org/project/opigno_certificate",
             "support": {
                 "source": "https://git.drupalcode.org/project/opigno_certificate"
             }
         },
         {
             "name": "drupal/opigno_class",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_class.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_class-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "950296f565750edbc2ac6a43e0592e8d7086f46b"
+                "url": "https://ftp.drupal.org/files/projects/opigno_class-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "521a926d72615af4f8998a06b54a197ba8fdd18b"
             },
             "require": {
                 "drupal/config_rewrite": "*",
@@ -4275,8 +4276,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1559752389",
+                    "version": "8.x-1.4",
+                    "datestamp": "1570005784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4366,17 +4367,17 @@
         },
         {
             "name": "drupal/opigno_course",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_course.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_course-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "065fa6f4b96512ca7ce7554e0882567f3a068897"
+                "url": "https://ftp.drupal.org/files/projects/opigno_course-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "cabb8330766db8c7e485d78ab15efa6a0c1edce9"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -4391,8 +4392,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1559752389",
+                    "version": "8.x-1.3",
+                    "datestamp": "1570005784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4421,17 +4422,17 @@
         },
         {
             "name": "drupal/opigno_dashboard",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_dashboard.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_dashboard-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "97c86afcc6b71533abeb7b39d9a78cc887e50cf9"
+                "url": "https://ftp.drupal.org/files/projects/opigno_dashboard-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "f08d91b1110f2b6ccc612189fb754bf423f4fb0f"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -4442,8 +4443,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.4",
+                    "datestamp": "1570005784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4476,17 +4477,17 @@
         },
         {
             "name": "drupal/opigno_forum",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_forum.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_forum-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "177ef2a163d3b79012a691b582f3f901618b6cc2"
+                "url": "https://ftp.drupal.org/files/projects/opigno_forum-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "fd95836a914ed05beb500f38b04c7e04363fc2cf"
             },
             "require": {
                 "drupal/core": "*",
@@ -4500,8 +4501,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.5",
+                    "datestamp": "1570005784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4530,17 +4531,17 @@
         },
         {
             "name": "drupal/opigno_group_manager",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_group_manager.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_group_manager-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "a637312902c16060bbc48601f5311ab99da82b39"
+                "url": "https://ftp.drupal.org/files/projects/opigno_group_manager-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "b77b2de20cd0d77a5ecfcc14305cb80ad044ad34"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -4552,8 +4553,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.5",
+                    "datestamp": "1570005784",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4582,17 +4583,17 @@
         },
         {
             "name": "drupal/opigno_ilt",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_ilt.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_ilt-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "335dfd5dccf82cd8f73eac241faff85c9efbb334"
+                "url": "https://ftp.drupal.org/files/projects/opigno_ilt-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "6855bb370ccaf9a0bb14fd2b07c5136ad4da73fb"
             },
             "require": {
                 "drupal/core": "*",
@@ -4606,8 +4607,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.3",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4636,17 +4637,17 @@
         },
         {
             "name": "drupal/opigno_learning_path",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_learning_path.git",
-                "reference": "8.x-1.6"
+                "reference": "8.x-1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_learning_path-8.x-1.6.zip",
-                "reference": "8.x-1.6",
-                "shasum": "2372869c40dacd488589141e9c135d062b8baee9"
+                "url": "https://ftp.drupal.org/files/projects/opigno_learning_path-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "b5698988360e3e108f6719ab356d6f64ff5f634d"
             },
             "require": {
                 "drupal/better_exposed_filters": "*",
@@ -4656,6 +4657,7 @@
                 "drupal/dropzonejs_eb_widget": "*",
                 "drupal/entity_browser": "*",
                 "drupal/group": "*",
+                "drupal/media_entity_browser": "2.x-dev#c75921d",
                 "drupal/opigno_alter_entity_autocomplete": "*",
                 "drupal/opigno_certificate": "*",
                 "drupal/opigno_class": "*",
@@ -4664,7 +4666,8 @@
                 "drupal/opigno_module": "*",
                 "drupal/opigno_module_group": "*",
                 "drupal/opigno_notification": "*",
-                "drupal/tft": "*"
+                "drupal/tft": "*",
+                "drupal/views_role_based_global_text": "1.x-dev#550f8e0"
             },
             "type": "drupal-module",
             "extra": {
@@ -4672,8 +4675,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.7",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4682,7 +4685,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -4694,8 +4697,8 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 }
             ],
-            "description": "Add the Learning Path feature to the opigno instance.",
-            "homepage": "https://www.drupal.org/project/opigno_learning_path",
+            "description": "Opigno Learning Path Module.",
+            "homepage": "http://drupal.org/project/opigno_learning_path",
             "support": {
                 "source": "https://git.drupalcode.org/project/opigno_learning_path",
                 "error": "Invalid dependency: \"ggroup\" is an unknown drupal 8 package name"
@@ -4703,17 +4706,17 @@
         },
         {
             "name": "drupal/opigno_messaging",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_messaging.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_messaging-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "48e2b2a9f5d8e3ffa4cd7f675e74125129dfbf45"
+                "url": "https://ftp.drupal.org/files/projects/opigno_messaging-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "52baccfd988909407783e416eecb80c3ff2e0803"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -4727,8 +4730,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1559752389",
+                    "version": "8.x-1.3",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4757,17 +4760,17 @@
         },
         {
             "name": "drupal/opigno_migration",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_migration.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_migration-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "1d79b37212418ac7ac67dfe5ddf96a405caba4c6"
+                "url": "https://ftp.drupal.org/files/projects/opigno_migration-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "8e28cf74467572adff42cb393efc6272fad9d856"
             },
             "require": {
                 "drupal/core": "*",
@@ -4780,8 +4783,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.4",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4810,17 +4813,17 @@
         },
         {
             "name": "drupal/opigno_mobile_app",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_mobile_app.git",
-                "reference": "8.x-1.1"
+                "reference": "8.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_mobile_app-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "694a8db1ba33eec3d97e7934a4b7abed23e85bed"
+                "url": "https://ftp.drupal.org/files/projects/opigno_mobile_app-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "08b59b1dc41123508e9fcadf250f5db7a9bd0a32"
             },
             "require": {
                 "drupal/core": "*",
@@ -4839,8 +4842,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.2",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4869,26 +4872,28 @@
         },
         {
             "name": "drupal/opigno_module",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_module.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_module-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "3ec7d454a31c3f84484941a9c4896911fe0979a6"
+                "url": "https://ftp.drupal.org/files/projects/opigno_module-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "bf937eb41376ff10c78077b8b81cd7baed78c483"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "drupal/h5p": "*"
+                "drupal/h5p": "*",
+                "drupal/pdf": "1.x-dev#f558259"
             },
             "require-dev": {
                 "drupal/h5p": "*",
                 "drupal/h5peditor": "*",
                 "drupal/opigno_class": "*",
+                "drupal/opigno_file_upload": "*",
                 "drupal/opigno_scorm": "*",
                 "drupal/opigno_tincan_api": "*"
             },
@@ -4898,8 +4903,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.5",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4908,7 +4913,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -4920,15 +4925,15 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 }
             ],
-            "description": "Opigno Modules functionality.",
-            "homepage": "https://www.drupal.org/project/opigno_module",
+            "description": "Opigno Module Module.",
+            "homepage": "http://drupal.org/project/opigno_module",
             "support": {
                 "source": "https://git.drupalcode.org/project/opigno_module"
             }
         },
         {
             "name": "drupal/opigno_module_group",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "require": {
                 "drupal/core": "~8.0",
                 "drupal/opigno_module": "self.version"
@@ -4939,8 +4944,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.5",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4969,17 +4974,17 @@
         },
         {
             "name": "drupal/opigno_moxtra",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_moxtra.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_moxtra-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "548fd0399084af40710f58967a734e61ed1131f0"
+                "url": "https://ftp.drupal.org/files/projects/opigno_moxtra-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "b59a13862bc7e64b631f80c3afa33641f7d7ad10"
             },
             "require": {
                 "drupal/core": "*",
@@ -4999,8 +5004,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.5",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5029,17 +5034,17 @@
         },
         {
             "name": "drupal/opigno_notification",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_notification.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_notification-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "7152b5ac20fa21d0847ef9df093c5429e214a0bd"
+                "url": "https://ftp.drupal.org/files/projects/opigno_notification-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "711bad69f82f9bbe66df3ba778fe9cfd492d6e8d"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -5050,8 +5055,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.4",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5080,17 +5085,17 @@
         },
         {
             "name": "drupal/opigno_scorm",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_scorm.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_scorm-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "7b75a43e84800112c3ed6ea53b3f134ca9576c3e"
+                "url": "https://ftp.drupal.org/files/projects/opigno_scorm-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "de749b5c06748691aa130e51dba5851ef32abc56"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -5101,8 +5106,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.5",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5123,7 +5128,7 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 }
             ],
-            "description": "Opigno scorm functionality.",
+            "description": "It implements the SCORM feature in Opigno, allowing to load and play SCORM packages within Opigno trainings.",
             "homepage": "https://www.drupal.org/project/opigno_scorm",
             "support": {
                 "source": "https://git.drupalcode.org/project/opigno_scorm"
@@ -5238,17 +5243,17 @@
         },
         {
             "name": "drupal/opigno_tincan_api",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/opigno_tincan_api.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/opigno_tincan_api-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "5b301ed586c988cc62d5e0be8986237e1b303a82"
+                "url": "https://ftp.drupal.org/files/projects/opigno_tincan_api-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "4ccfeaa213b7244ca58b176c8d3dd164ea66f102"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -5268,8 +5273,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1559752685",
+                    "version": "8.x-1.3",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5411,17 +5416,17 @@
         },
         {
             "name": "drupal/platon",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/platon.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/platon-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "ad94d37bc8ab6414729557922f8d99b73bee744f"
+                "url": "https://ftp.drupal.org/files/projects/platon-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "c777ab5bff8e9ad3bbb17a9ac38f6cc65d1b54b3"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -5432,8 +5437,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1562693284",
+                    "version": "8.x-1.5",
+                    "datestamp": "1570006087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5450,6 +5455,10 @@
                     "homepage": "https://www.drupal.org/user/3331079"
                 },
                 {
+                    "name": "FredJF",
+                    "homepage": "https://www.drupal.org/user/3164995"
+                },
+                {
                     "name": "Jamesap",
                     "homepage": "https://www.drupal.org/user/2547544"
                 },
@@ -5460,10 +5469,6 @@
                 {
                     "name": "axelm",
                     "homepage": "https://www.drupal.org/user/1065700"
-                },
-                {
-                    "name": "fred.aa@laposte.net",
-                    "homepage": "https://www.drupal.org/user/3164995"
                 },
                 {
                     "name": "lolaolivet",
@@ -6000,17 +6005,17 @@
         },
         {
             "name": "drupal/tft",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/tft.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tft-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "ce8333036f18661f48a872e598e531ae91aead38"
+                "url": "https://ftp.drupal.org/files/projects/tft-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "ad5056c9a2e5a7a8eb10619f6f6af1bc5cd29a7c"
             },
             "require": {
                 "drupal/core": "*",
@@ -6022,7 +6027,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
+                    "version": "8.x-1.3",
                     "datestamp": "1562693284",
                     "security-coverage": {
                         "status": "covered",
@@ -6846,7 +6851,7 @@
                 "reference": "origin/gh-pages"
             },
             "type": "drupal-library",
-            "time": "2019-09-24T21:35:46+00:00"
+            "time": "2019-10-08T21:28:17+00:00"
         },
         {
             "name": "namshi/jose",
@@ -6913,44 +6918,81 @@
         },
         {
             "name": "opigno/opigno_lms",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/opigno/opigno_lms.git",
-                "reference": "70cda67079c6bcf53411a31c586d1a976866468e"
+                "reference": "135109748e32c6afb2ca1a5c6dac1ccfe63e8a15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/opigno/opigno_lms/get/70cda67079c6bcf53411a31c586d1a976866468e.zip",
-                "reference": "70cda67079c6bcf53411a31c586d1a976866468e",
+                "url": "https://bitbucket.org/opigno/opigno_lms/get/135109748e32c6afb2ca1a5c6dac1ccfe63e8a15.zip",
+                "reference": "135109748e32c6afb2ca1a5c6dac1ccfe63e8a15",
                 "shasum": ""
             },
             "require": {
-                "drupal/opigno_calendar": "1.2.0",
+                "dompdf/dompdf": "0.8.0",
+                "drupal/better_exposed_filters": "3.0.0-alpha5",
+                "drupal/commerce": "2.9",
+                "drupal/config_rewrite": "1.1",
+                "drupal/core": "8.7.7",
+                "drupal/ctools": "3.2",
+                "drupal/dropzonejs": "2.0.0-alpha3",
+                "drupal/embed": "1.0",
+                "drupal/entity": "1.0-rc1",
+                "drupal/entity_browser": "1.6",
+                "drupal/entity_embed": "1.0.0-beta2",
+                "drupal/entity_print": "2.0",
+                "drupal/entity_reference_revisions": "1.6",
+                "drupal/field_group": "3.0-rc1",
+                "drupal/group": "1.0.0-rc2",
+                "drupal/h5p": "1.0-rc16",
+                "drupal/inline_entity_form": "1.0.0-rc1",
+                "drupal/jwt": "1.0.0-alpha6",
+                "drupal/mailsystem": "4.1",
+                "drupal/migrate_plus": "4.0",
+                "drupal/migrate_tools": "4.0",
+                "drupal/mimemail": "1.0.0-alpha2",
+                "drupal/multiselect": "1.0",
+                "drupal/opigno_calendar": "1.3.0",
                 "drupal/opigno_calendar_event": "1.2.0",
                 "drupal/opigno_catalog": "1.3.0",
-                "drupal/opigno_certificate": "1.3.0",
-                "drupal/opigno_class": "1.3.0",
+                "drupal/opigno_certificate": "1.4.0",
+                "drupal/opigno_class": "1.4.0",
                 "drupal/opigno_commerce": "1.2.0",
-                "drupal/opigno_course": "1.2.0",
-                "drupal/opigno_dashboard": "1.3.0",
-                "drupal/opigno_forum": "1.4.0",
-                "drupal/opigno_group_manager": "1.4.0",
-                "drupal/opigno_ilt": "1.2.0",
-                "drupal/opigno_learning_path": "1.6.0",
-                "drupal/opigno_messaging": "1.2.0",
-                "drupal/opigno_migration": "1.3.0",
-                "drupal/opigno_mobile_app": "1.1.0",
-                "drupal/opigno_module": "1.4.0",
-                "drupal/opigno_moxtra": "1.4.0",
-                "drupal/opigno_notification": "1.3.0",
-                "drupal/opigno_scorm": "1.4.0",
+                "drupal/opigno_course": "1.3.0",
+                "drupal/opigno_dashboard": "1.4.0",
+                "drupal/opigno_forum": "1.5.0",
+                "drupal/opigno_group_manager": "1.5.0",
+                "drupal/opigno_ilt": "1.3.0",
+                "drupal/opigno_learning_path": "1.7.0",
+                "drupal/opigno_messaging": "1.3.0",
+                "drupal/opigno_migration": "1.4.0",
+                "drupal/opigno_mobile_app": "1.2.0",
+                "drupal/opigno_module": "1.5.0",
+                "drupal/opigno_moxtra": "1.5.0",
+                "drupal/opigno_notification": "1.4.0",
+                "drupal/opigno_scorm": "1.5.0",
                 "drupal/opigno_search": "1.3.0",
                 "drupal/opigno_statistics": "1.4.0",
-                "drupal/opigno_tincan_api": "1.2.0",
+                "drupal/opigno_tincan_api": "1.3.0",
                 "drupal/opigno_tour": "1.1.0",
-                "drupal/platon": "1.4.0",
-                "drupal/tft": "1.2.0"
+                "drupal/platon": "1.5.0",
+                "drupal/popup_field_group": "1.3",
+                "drupal/private_message": "2.0.0-beta15",
+                "drupal/restui": "1.16",
+                "drupal/search_api": "1.10",
+                "drupal/tft": "1.3.0",
+                "drupal/token": "1.5",
+                "drupal/token_filter": "1.1",
+                "drupal/video": "1.4",
+                "drupal/views_templates": "1.0.0-alpha1",
+                "enyo/dropzone": "^5.5",
+                "mozilla/pdf.js": "dev-master",
+                "rusticisoftware/tincan": "1.0.0",
+                "symfony/psr-http-message-bridge": "^1.0",
+                "webflo/drupal-finder": "^1.0.0",
+                "webmozart/path-util": "^2.3"
             },
             "type": "drupal-profile",
             "extra": {
@@ -6973,45 +7015,78 @@
                     "drush/Commands/{$name}": [
                         "type:drupal-drush"
                     ]
+                },
+                "patches": {
+                    "drupal/core": {
+                        "2924061": "https://www.drupal.org/files/issues/2019-04-15/2924061-14.patch",
+                        "2898635": "https://www.drupal.org/files/issues/2018-04-20/views-code_bundle_fields-2898635-16.patch"
+                    },
+                    "drupal/views_role_based_global_text": {
+                        "2969716": "https://www.drupal.org/files/issues/2018-05-04/2969716-Undefined-index-default.patch"
+                    },
+                    "drupal/calendar": {
+                        "2756445": "https://www.drupal.org/files/issues/2756445-month-names-not-showing-10.patch",
+                        "2699477": "https://www.drupal.org/files/issues/2018-04-06/calendar-date_range-2699477-71.patch",
+                        "2604546": "https://www.drupal.org/files/issues/2018-05-09/2604546-33.patch",
+                        "2630234": "https://www.drupal.org/files/issues/fix_menu_tabs_in-2630234-15.patch",
+                        "2867991": "https://www.drupal.org/files/issues/tab_navigation_not_working_after_using_pager-2867991-5.patch",
+                        "2901594": "https://www.drupal.org/files/issues/week-week-day-display-issues-2901594-15.patch",
+                        "2955351": "https://www.drupal.org/files/issues/2018-04-23/2955351-5-base-filter.patch"
+                    },
+                    "drupal/entity_print": {
+                        "2969184": "https://www.drupal.org/files/issues/2018-05-03/entity_print-dompdf-2969184.patch"
+                    },
+                    "drupal/group": {
+                        "2736233": "https://www.drupal.org/files/issues/2018-04-20/2736233-156.patch",
+                        "2973005": "https://www.drupal.org/files/issues/2018-05-15/group-2973005-2.patch"
+                    },
+                    "drupal/private_message": {
+                        "2961332": "https://www.drupal.org/files/issues/2018-07-03/private-message-2961332-2.0.patch"
+                    },
+                    "drupal/h5p": {
+                        "3018798": "https://www.drupal.org/files/issues/2019-07-09/opigno-module-h5p-hidetitle-3018798-6.patch"
+                    },
+                    "drupal/video": {
+                        "Add source and destination module for migrate plugin": "https://www.drupal.org/files/issues/2018-07-18/2986682-2.patch"
+                    }
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
+            "authors": [
+                []
+            ],
             "description": "Opigno LMS profile",
             "homepage": "https://bitbucket.org/opigno/opigno_lms",
-            "time": "2019-07-09T18:19:21+00:00"
+            "time": "2019-10-04T06:09:31+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.18",
+            "version": "v9.99.99",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "0a58ef6e3146256cc3dc7cc393927bcc7d1b72db"
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/0a58ef6e3146256cc3dc7cc393927bcc7d1b72db",
-                "reference": "0a58ef6e3146256cc3dc7cc393927bcc7d1b72db",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.0"
+                "php": "^7"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*|5.*"
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
             },
             "suggest": {
                 "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
             },
             "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/random.php"
-                ]
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -7030,7 +7105,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2019-01-03T20:59:08+00:00"
+            "time": "2018-07-02T15:55:56+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -7128,18 +7203,18 @@
             "authors": [
                 {
                     "name": "Greg Beaver",
-                    "role": "Helper",
-                    "email": "cellog@php.net"
+                    "email": "cellog@php.net",
+                    "role": "Helper"
                 },
                 {
                     "name": "Andrei Zmievski",
-                    "role": "Lead",
-                    "email": "andrei@php.net"
+                    "email": "andrei@php.net",
+                    "role": "Lead"
                 },
                 {
                     "name": "Stig Bakken",
-                    "role": "Developer",
-                    "email": "stig@php.net"
+                    "email": "stig@php.net",
+                    "role": "Developer"
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
@@ -7747,7 +7822,7 @@
         },
         {
             "name": "symfony/class-loader",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/class-loader.git",
@@ -7803,16 +7878,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "4510f04e70344d70952566e4262a0b11df39cb10"
+                "reference": "4727d7f3c99b9dea0ae70ed4f34645728aa90453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/4510f04e70344d70952566e4262a0b11df39cb10",
-                "reference": "4510f04e70344d70952566e4262a0b11df39cb10",
+                "url": "https://api.github.com/repos/symfony/console/zipball/4727d7f3c99b9dea0ae70ed4f34645728aa90453",
+                "reference": "4727d7f3c99b9dea0ae70ed4f34645728aa90453",
                 "shasum": ""
             },
             "require": {
@@ -7871,20 +7946,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:52:58+00:00"
+            "time": "2019-10-06T19:52:09+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "0b600300918780001e2821db77bc28b677794486"
+                "reference": "b3e7ce815d82196435d16dc458023f8fb6b36ceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/0b600300918780001e2821db77bc28b677794486",
-                "reference": "0b600300918780001e2821db77bc28b677794486",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/b3e7ce815d82196435d16dc458023f8fb6b36ceb",
+                "reference": "b3e7ce815d82196435d16dc458023f8fb6b36ceb",
                 "shasum": ""
             },
             "require": {
@@ -7927,20 +8002,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T13:31:17+00:00"
+            "time": "2019-09-19T15:32:51+00:00"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "2709bc2978ceb90f5180181f777f8a09125f2d89"
+                "reference": "9cf81798f857205c5bbb4c8c7895f838d40b0c4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/2709bc2978ceb90f5180181f777f8a09125f2d89",
-                "reference": "2709bc2978ceb90f5180181f777f8a09125f2d89",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/9cf81798f857205c5bbb4c8c7895f838d40b0c4b",
+                "reference": "9cf81798f857205c5bbb4c8c7895f838d40b0c4b",
                 "shasum": ""
             },
             "require": {
@@ -7998,11 +8073,11 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T16:07:57+00:00"
+            "time": "2019-09-27T15:47:48+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -8065,16 +8140,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "b3d57a1c325f39f703b249bed7998ce8c64236b4"
+                "reference": "233f40cbebd595ffd91ddf291355f8a930a13777"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b3d57a1c325f39f703b249bed7998ce8c64236b4",
-                "reference": "b3d57a1c325f39f703b249bed7998ce8c64236b4",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/233f40cbebd595ffd91ddf291355f8a930a13777",
+                "reference": "233f40cbebd595ffd91ddf291355f8a930a13777",
                 "shasum": ""
             },
             "require": {
@@ -8115,20 +8190,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:50:50+00:00"
+            "time": "2019-10-02T16:15:21+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "f6d35bb306b26812df007525f5757a8b0e95857e"
+                "reference": "1103850c7f34bf9c0bf8c0e6e9aab9b1f2308f01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/f6d35bb306b26812df007525f5757a8b0e95857e",
-                "reference": "f6d35bb306b26812df007525f5757a8b0e95857e",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/1103850c7f34bf9c0bf8c0e6e9aab9b1f2308f01",
+                "reference": "1103850c7f34bf9c0bf8c0e6e9aab9b1f2308f01",
                 "shasum": ""
             },
             "require": {
@@ -8204,7 +8279,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T16:36:29+00:00"
+            "time": "2019-10-07T14:41:56+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -8551,16 +8626,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "d822cb654000a95b7855362c0d5b127f6a6d8baa"
+                "reference": "344dc588b163ff58274f1769b90b75237f32ed16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/d822cb654000a95b7855362c0d5b127f6a6d8baa",
-                "reference": "d822cb654000a95b7855362c0d5b127f6a6d8baa",
+                "url": "https://api.github.com/repos/symfony/process/zipball/344dc588b163ff58274f1769b90b75237f32ed16",
+                "reference": "344dc588b163ff58274f1769b90b75237f32ed16",
                 "shasum": ""
             },
             "require": {
@@ -8596,7 +8671,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:52:58+00:00"
+            "time": "2019-09-25T14:09:38+00:00"
         },
         {
             "name": "symfony/psr-http-message-bridge",
@@ -8665,7 +8740,7 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
@@ -8741,16 +8816,16 @@
         },
         {
             "name": "symfony/serializer",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "758c3cb8cd4a949ee76ee457450abdc80ea82aa1"
+                "reference": "14e29c5977dbae8beb8f56b098b2d1a313f201eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/758c3cb8cd4a949ee76ee457450abdc80ea82aa1",
-                "reference": "758c3cb8cd4a949ee76ee457450abdc80ea82aa1",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/14e29c5977dbae8beb8f56b098b2d1a313f201eb",
+                "reference": "14e29c5977dbae8beb8f56b098b2d1a313f201eb",
                 "shasum": ""
             },
             "require": {
@@ -8816,20 +8891,20 @@
             ],
             "description": "Symfony Serializer Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:52:58+00:00"
+            "time": "2019-09-30T23:11:46+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "49a884e9ac297f99c56052bad30b2af89f716ee1"
+                "reference": "dd313664be0588560acacb252543b585f5408547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/49a884e9ac297f99c56052bad30b2af89f716ee1",
-                "reference": "49a884e9ac297f99c56052bad30b2af89f716ee1",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/dd313664be0588560acacb252543b585f5408547",
+                "reference": "dd313664be0588560acacb252543b585f5408547",
                 "shasum": ""
             },
             "require": {
@@ -8886,20 +8961,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:52:58+00:00"
+            "time": "2019-09-27T05:57:25+00:00"
         },
         {
             "name": "symfony/validator",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "4dde4e74331ffa897c31e4423d02ae08d56f7784"
+                "reference": "ce65fe341eb87fb34c80f9e4f12edc6472d1a74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/4dde4e74331ffa897c31e4423d02ae08d56f7784",
-                "reference": "4dde4e74331ffa897c31e4423d02ae08d56f7784",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/ce65fe341eb87fb34c80f9e4f12edc6472d1a74b",
+                "reference": "ce65fe341eb87fb34c80f9e4f12edc6472d1a74b",
                 "shasum": ""
             },
             "require": {
@@ -8972,20 +9047,20 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:52:58+00:00"
+            "time": "2019-10-07T09:27:57+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "3dc414b7db30695bae671a1d86013d03f4ae9834"
+                "reference": "768f817446da74a776a31eea335540f9dcb53942"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/3dc414b7db30695bae671a1d86013d03f4ae9834",
-                "reference": "3dc414b7db30695bae671a1d86013d03f4ae9834",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/768f817446da74a776a31eea335540f9dcb53942",
+                "reference": "768f817446da74a776a31eea335540f9dcb53942",
                 "shasum": ""
             },
             "require": {
@@ -9031,7 +9106,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T13:31:17+00:00"
+            "time": "2019-09-10T10:38:46+00:00"
         },
         {
             "name": "twig/twig",
@@ -9280,6 +9355,55 @@
             ],
             "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
             "time": "2015-12-17T08:42:14+00:00"
+        },
+        {
+            "name": "wikimedia/composer-merge-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/composer-merge-plugin.git",
+                "reference": "73e4ed4fa66167823cb9bfc65fdd5fd6019722b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/73e4ed4fa66167823cb9bfc65fdd5fd6019722b6",
+                "reference": "73e4ed4fa66167823cb9bfc65fdd5fd6019722b6",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0.0",
+                "jakub-onderka/php-parallel-lint": "~0.8",
+                "phpunit/phpunit": "~4.8|~5.0",
+                "squizlabs/php_codesniffer": "~2.1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                },
+                "class": "Wikimedia\\Composer\\MergePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wikimedia\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Davis",
+                    "email": "bd808@wikimedia.org"
+                }
+            ],
+            "description": "Composer plugin to merge multiple composer.json files",
+            "time": "2018-01-10T05:07:51+00:00"
         },
         {
             "name": "willdurand/negotiation",
@@ -11457,16 +11581,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "24a60c0d7ad98a0fa5d1f892e9286095a389404f"
+                "reference": "717ad66b5257e9752ae3c5722b5810bb4c40b236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/24a60c0d7ad98a0fa5d1f892e9286095a389404f",
-                "reference": "24a60c0d7ad98a0fa5d1f892e9286095a389404f",
+                "url": "https://api.github.com/repos/symfony/config/zipball/717ad66b5257e9752ae3c5722b5810bb4c40b236",
+                "reference": "717ad66b5257e9752ae3c5722b5810bb4c40b236",
                 "shasum": ""
             },
             "require": {
@@ -11517,20 +11641,20 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:52:57+00:00"
+            "time": "2019-09-19T15:32:51+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "e18c5c4b35e7f17513448a25d02f7af34a4bdb41"
+                "reference": "f819f71ae3ba6f396b4c015bd5895de7d2f1f85f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/e18c5c4b35e7f17513448a25d02f7af34a4bdb41",
-                "reference": "e18c5c4b35e7f17513448a25d02f7af34a4bdb41",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f819f71ae3ba6f396b4c015bd5895de7d2f1f85f",
+                "reference": "f819f71ae3ba6f396b4c015bd5895de7d2f1f85f",
                 "shasum": ""
             },
             "require": {
@@ -11570,20 +11694,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T13:31:17+00:00"
+            "time": "2019-10-01T11:57:37+00:00"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "8558d1bc4554f5cb0b66e50377457967a8969263"
+                "reference": "29cffc38a38f2a8ed7e494c9cea2f890a40c2359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/8558d1bc4554f5cb0b66e50377457967a8969263",
-                "reference": "8558d1bc4554f5cb0b66e50377457967a8969263",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/29cffc38a38f2a8ed7e494c9cea2f890a40c2359",
+                "reference": "29cffc38a38f2a8ed7e494c9cea2f890a40c2359",
                 "shasum": ""
             },
             "require": {
@@ -11627,11 +11751,11 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-26T07:52:58+00:00"
+            "time": "2019-08-30T17:42:32+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -11681,16 +11805,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.31",
+            "version": "v3.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "1fcad80b440abcd1451767349906b6f9d3961d37"
+                "reference": "2b6a666d6ff7fb65d10b97d817c8e7930944afb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/1fcad80b440abcd1451767349906b6f9d3961d37",
-                "reference": "1fcad80b440abcd1451767349906b6f9d3961d37",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/2b6a666d6ff7fb65d10b97d817c8e7930944afb9",
+                "reference": "2b6a666d6ff7fb65d10b97d817c8e7930944afb9",
                 "shasum": ""
             },
             "require": {
@@ -11726,7 +11850,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-14T09:39:58+00:00"
+            "time": "2019-09-01T21:32:23+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
@@ -11785,16 +11909,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.3.4",
+            "version": "v4.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "641043e0f3e615990a0f29479f9c117e8a6698c6"
+                "reference": "bde8957fc415fdc6964f33916a3755737744ff05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/641043e0f3e615990a0f29479f9c117e8a6698c6",
-                "reference": "641043e0f3e615990a0f29479f9c117e8a6698c6",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/bde8957fc415fdc6964f33916a3755737744ff05",
+                "reference": "bde8957fc415fdc6964f33916a3755737744ff05",
                 "shasum": ""
             },
             "require": {
@@ -11857,18 +11981,18 @@
                 "debug",
                 "dump"
             ],
-            "time": "2019-08-26T08:26:39+00:00"
+            "time": "2019-10-04T19:48:13+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "wikimedia/composer-merge-plugin": 20,
+        "drupal/calendar": 20,
         "drupal/view_mode_selector": 20,
         "drupal/views_role_based_global_text": 20,
-        "drupal/calendar": 20,
         "drupal/media_entity_browser": 20,
-        "drupal/pdf": 20,
-        "mozilla/pdf.js": 20
+        "drupal/pdf": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
