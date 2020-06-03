@@ -23,7 +23,7 @@
                 "source" : {
                     "url" :         "https://github.com/enyo/dropzone.git",
                     "type" :        "git",
-                    "reference" :   "origin/master"
+                    "reference" :   "v5.5.0"
                 }
             }
         },
@@ -33,10 +33,34 @@
                 "name": "mozilla/pdf.js",
                 "version": "dev-master",
                 "type": "drupal-library",
-                "source": {
-                    "url": "https://github.com/mozilla/pdf.js",
-                    "type": "git",
-                    "reference": "origin/gh-pages"
+                "dist": {
+                    "url": "https://github.com/mozilla/pdf.js/releases/download/v2.4.456/pdfjs-2.4.456-es5-dist.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package" : {
+                "name" : "almende/vis",
+                "version" : "v4.21.0",
+                "type" : "drupal-library",
+                "source" : {
+                    "url" : "https://github.com/almende/vis.git",
+                    "type" : "git",
+                    "reference" : "v4.21.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "kenwheeler/slick",
+                "version": "1.8.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/kenwheeler/slick/archive/v1.8.1.zip",
+                    "type": "zip"
                 }
             }
         }
@@ -44,16 +68,16 @@
     "require": {
         "php":                                  ">=7.1.0",
        	"wikimedia/composer-merge-plugin":      "dev-master",
-        "composer/installers":                  "^1.2",
+        "composer/installers":                  "^1.7",
         "cweagans/composer-patches":            "^1.6",
         "drupal/core-composer-scaffold":        "^8.8",
         "drupal/core-project-message":          "^8.8",
-		"drupal/calendar":                      "1.x-dev#73e2979",
-        "drupal/view_mode_selector":            "1.x-dev#11c9ad2",
-		"drupal/views_role_based_global_text":  "1.x-dev#550f8e0",
-      	"drupal/media_entity_browser":          "2.x-dev#c75921d",
-		"drupal/pdf":                           "1.x-dev#f558259",
-		"opigno/opigno_lms":                    "2.11.1",
+        "drupal/view_mode_selector":            "1.x-dev#93d105f",
+      	"drupal/media_entity_browser":          "2.x-dev#8129394",
+		"drupal/pdf":                           "1.x-dev#ec8d13d",
+        "almende/vis":                          "4.21.0",
+        "kenwheeler/slick":                     "1.8.1",
+		"opigno/opigno_lms":                    "2.12.0",
         "platformsh/config-reader": "^2.3",
         "drush/drush": "^10.2",
         "drupal/console": "^1.9",
