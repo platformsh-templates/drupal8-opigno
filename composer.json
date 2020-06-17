@@ -75,8 +75,6 @@
         "drupal/view_mode_selector":            "1.x-dev#93d105f",
         "drupal/media_entity_browser":          "2.x-dev#8129394",
         "drupal/pdf":                           "1.x-dev#ec8d13d",
-        "almende/vis":                          "4.21.0",
-        "kenwheeler/slick":                     "1.8.1",
         "opigno/opigno_lms":                    "2.12.0",
         "platformsh/config-reader": "^2.3",
         "drush/drush": "^10.2",
