@@ -1,8 +1,8 @@
 {
-    "name":         "opigno/opigno-composer",
-    "description":  "Opigno LMS",
-    "type":         "project",
-    "license":      "GPL-2.0-or-later",
+    "name": "opigno/opigno-composer",
+    "description": "Opigno LMS",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "",
@@ -16,14 +16,14 @@
         },
         {
             "type": "package",
-            "package" : {
-                "name" : "enyo/dropzone",
-                "version" : "v5.5.0",
-                "type" : "drupal-library",
-                "source" : {
-                    "url" : "https://github.com/enyo/dropzone.git",
-                    "type" : "git",
-                    "reference" : "v5.5.0"
+            "package": {
+                "name": "enyo/dropzone",
+                "version": "v5.5.0",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/enyo/dropzone.git",
+                    "type": "git",
+                    "reference": "v5.5.0"
                 }
             }
         },
@@ -41,14 +41,14 @@
         },
         {
             "type": "package",
-            "package" : {
-                "name" : "almende/vis",
-                "version" : "v4.21.0",
-                "type" : "drupal-library",
-                "source" : {
-                    "url" : "https://github.com/almende/vis.git",
-                    "type" : "git",
-                    "reference" : "v4.21.0"
+            "package": {
+                "name": "almende/vis",
+                "version": "v4.21.0",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/almende/vis.git",
+                    "type": "git",
+                    "reference": "v4.21.0"
                 }
             }
         },
@@ -73,11 +73,12 @@
         "drupal/core-composer-scaffold":        "^8.8",
         "drupal/core-project-message":          "^8.8",
         "drupal/calendar":                      "1.x-dev#1824fdc",
-        "drupal/view_mode_selector":            "1.x-dev#93d105f",
+        "drupal/view_mode_selector":            "1.x-dev#5d87d17",
         "drupal/views_role_based_global_text":  "1.x-dev#026dc0e",
-        "drupal/media_entity_browser":          "2.x-dev#8129394",
-        "drupal/pdf":                           "1.x-dev#ec8d13d",
-        "opigno/opigno_lms":                    "2.13.0",
+        "drupal/media_entity_browser":          "2.x-dev#31fdf95",
+        "drupal/pdf":                           "1.x-dev#1e33fbf",
+        "drupal/private_message":               "2.x-dev#0d76aa9",
+        "opigno/opigno_lms":                    "2.15.0",
         "platformsh/config-reader": "^2.3",
         "drush/drush": "^10.3",
         "drupal/console": "^1.9",
