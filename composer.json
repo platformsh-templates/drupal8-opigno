@@ -78,7 +78,7 @@
         "drupal/media_entity_browser":          "2.x-dev#31fdf95",
         "drupal/pdf":                           "1.x-dev#1e33fbf",
         "drupal/private_message":               "2.x-dev#0d76aa9",
-        "opigno/opigno_lms":                    "2.15.0",
+        "opigno/opigno_lms":                    "2.16.0",
         "platformsh/config-reader": "^2.3",
         "drush/drush": "^10.3",
         "drupal/console": "^1.9",
