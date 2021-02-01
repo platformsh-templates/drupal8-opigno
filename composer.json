@@ -78,13 +78,11 @@
         "drupal/media_entity_browser":          "2.x-dev#31fdf95",
         "drupal/pdf":                           "1.x-dev#1e33fbf",
         "drupal/private_message":               "2.x-dev#0d76aa9",
-        "opigno/opigno_lms":                    "2.18.0",
+        "opigno/opigno_lms":                    "2.19.0",
         "platformsh/config-reader": "^2.4",
         "drush/drush": "^10.3",
         "drupal/console": "^1.9",
         "drupal/redis": "^1.5"
-    },
-    "require-dev": {
     },
     "replace": {
         "h5p/h5p-core": "*",
