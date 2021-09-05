@@ -21,7 +21,7 @@ Opigno is a Learning Management system built as a Drupal distribution.
 
 ## Post-install
 
-Run through the Opigno installer as normal.  You will not be asked for database credentials as those are already provided.
+Run through the Opigno installer as normal. You will not be asked for database credentials as those are already provided. After installation is complete, log into the environment and run `drush -y cache-rebuild` twice to clear the cache.
 
 ## Customizations
 
