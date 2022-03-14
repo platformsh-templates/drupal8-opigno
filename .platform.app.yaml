@@ -9,6 +9,10 @@ name: 'app'
 # The runtime the application uses.
 type: 'php:7.3'
 
+dependencies:
+    php:
+        composer/composer: '^2'
+
 runtime:
     # Enable the redis extension so Drupal can communicate with the Redis cache.
     extensions:
@@ -141,3 +145,10 @@ crons:
     drupal:
         spec: '*/19 * * * *'
         cmd: 'cd web ; drush core-cron'
+
+source:
+  operations:
+    auto-update:
+      command: |
+        curl -fsS https://raw.githubusercontent.com/platformsh/source-operations/main/setup.sh | { bash /dev/fd/3 sop-autoupdate; } 3<&0
+    
