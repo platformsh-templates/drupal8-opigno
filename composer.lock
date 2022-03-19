@@ -2443,7 +2443,7 @@
         },
         {
             "name": "drupal-ckeditor-libraries-group/font",
-            "version": "4.17.2",
+            "version": "4.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-ckeditor-libraries-group/font.git",
