@@ -2443,7 +2443,7 @@
         },
         {
             "name": "drupal-ckeditor-libraries-group/font",
-            "version": "4.17.2",
+            "version": "4.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-ckeditor-libraries-group/font.git",
@@ -4317,7 +4317,7 @@
         },
         {
             "name": "drupal/dropzonejs_eb_widget",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "require": {
                 "drupal/core": "^8.8 || ^9",
                 "drupal/dropzonejs": "*",
@@ -4326,8 +4326,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.5",
-                    "datestamp": "1614606376",
+                    "version": "8.x-2.6",
+                    "datestamp": "1647857808",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6128,8 +6128,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -6251,8 +6255,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -6317,8 +6325,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -6440,8 +6452,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -6563,8 +6579,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -6620,8 +6640,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -6882,8 +6906,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -7196,8 +7224,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -7252,8 +7284,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -7447,8 +7483,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "yuriy.korzhov",
@@ -8334,8 +8374,12 @@
                     "homepage": "https://www.drupal.org/user/1065700"
                 },
                 {
-                    "name": "geophysicist",
-                    "homepage": "https://www.drupal.org/user/479234"
+                    "name": "spheresh",
+                    "homepage": "https://www.drupal.org/user/624860"
+                },
+                {
+                    "name": "vshamov",
+                    "homepage": "https://www.drupal.org/user/3689794"
                 },
                 {
                     "name": "wadmiraal",
@@ -9759,16 +9803,16 @@
         },
         {
             "name": "laminas/laminas-feed",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-feed.git",
-                "reference": "cbd0e10c867a1efa6594164d229d8caf4a4ae4c7"
+                "reference": "1ccb024ea615606ed1d676ba0fa3f22a398f3ac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/cbd0e10c867a1efa6594164d229d8caf4a4ae4c7",
-                "reference": "cbd0e10c867a1efa6594164d229d8caf4a4ae4c7",
+                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/1ccb024ea615606ed1d676ba0fa3f22a398f3ac0",
+                "reference": "1ccb024ea615606ed1d676ba0fa3f22a398f3ac0",
                 "shasum": ""
             },
             "require": {
@@ -9832,7 +9876,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-12-17T09:12:35+00:00"
+            "time": "2022-03-24T10:26:04+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
@@ -14126,5 +14170,5 @@
         "php": ">=7.1.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
