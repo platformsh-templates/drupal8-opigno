@@ -14047,12 +14047,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/composer-merge-plugin.git",
-                "reference": "e9434c3cd6bb98d79f39b7b1662f75fafd97624b"
+                "reference": "98d487806c597a3fef9890e1e974199679190cf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/e9434c3cd6bb98d79f39b7b1662f75fafd97624b",
-                "reference": "e9434c3cd6bb98d79f39b7b1662f75fafd97624b",
+                "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/98d487806c597a3fef9890e1e974199679190cf1",
+                "reference": "98d487806c597a3fef9890e1e974199679190cf1",
                 "shasum": ""
             },
             "require": {
@@ -14095,7 +14095,7 @@
                 "issues": "https://github.com/wikimedia/composer-merge-plugin/issues",
                 "source": "https://github.com/wikimedia/composer-merge-plugin/tree/master"
             },
-            "time": "2021-11-24T15:40:31+00:00"
+            "time": "2022-04-14T22:58:03+00:00"
         },
         {
             "name": "willdurand/negotiation",
