@@ -5243,7 +5243,7 @@
         },
         {
             "name": "drupal/jwt_auth_consumer",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "require": {
                 "drupal/core": "^8.7.12 || ^9.0",
                 "drupal/jwt": "*"
@@ -5251,8 +5251,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1623958868",
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1650156907",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -5289,7 +5289,7 @@
         },
         {
             "name": "drupal/jwt_auth_issuer",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "require": {
                 "drupal/core": "^8.7.12 || ^9.0",
                 "drupal/jwt": "*"
@@ -5297,8 +5297,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1623958868",
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1650156907",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
