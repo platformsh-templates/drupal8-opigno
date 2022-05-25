@@ -2443,7 +2443,7 @@
         },
         {
             "name": "drupal-ckeditor-libraries-group/font",
-            "version": "4.18.0",
+            "version": "4.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-ckeditor-libraries-group/font.git",
@@ -5243,7 +5243,7 @@
         },
         {
             "name": "drupal/jwt_auth_consumer",
-            "version": "1.0.0-rc2",
+            "version": "1.0.0",
             "require": {
                 "drupal/core": "^8.7.12 || ^9.0",
                 "drupal/jwt": "*"
@@ -5251,11 +5251,11 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc2",
-                    "datestamp": "1650156907",
+                    "version": "8.x-1.0",
+                    "datestamp": "1653322599",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -5289,7 +5289,7 @@
         },
         {
             "name": "drupal/jwt_auth_issuer",
-            "version": "1.0.0-rc2",
+            "version": "1.0.0",
             "require": {
                 "drupal/core": "^8.7.12 || ^9.0",
                 "drupal/jwt": "*"
@@ -5297,11 +5297,11 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc2",
-                    "datestamp": "1650156907",
+                    "version": "8.x-1.0",
+                    "datestamp": "1653322599",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
