@@ -1,41 +1,35 @@
 {
-  "name": "platformsh/drupal8-opigno",
-  "description": "This template builds the Opigno Drupal 8 distribution using the \"Drupal Recommended\" Composer project.",
+  "name": "platformsh/opigno-composer",
+  "description": "This template builds the Opigno Drupal 9 distribution using the \"Drupal Recommended\" Composer project.",
   "type": "project",
   "license": "GPL-2.0-or-later",
-  "authors": [
-    {
-      "name": "",
-      "role": ""
-    }
-  ],
-  "repositories": [
-    {
+  "authors": [],
+  "repositories": {
+    "drupal": {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
     },
-    {
+    "asset-packagist": {
       "type": "composer",
       "url": "https://asset-packagist.org"
     },
-    {
+    "enyo/dropzone": {
       "type": "package",
       "package": {
         "name": "enyo/dropzone",
         "version": "v5.5.0",
         "type": "drupal-library",
-        "source": {
-          "url": "https://github.com/enyo/dropzone.git",
-          "type": "git",
-          "reference": "v5.5.0"
+        "dist": {
+          "url": "https://github.com/dropzone/dropzone/archive/refs/tags/v5.5.0.zip",
+          "type": "zip"
         }
       }
     },
-    {
+    "mozilla/pdf.js": {
       "type": "package",
       "package": {
         "name": "mozilla/pdf.js",
-        "version": "dev-master",
+        "version": "v2.4.456",
         "type": "drupal-library",
         "dist": {
           "url": "https://github.com/mozilla/pdf.js/releases/download/v2.4.456/pdfjs-2.4.456-es5-dist.zip",
@@ -43,20 +37,7 @@
         }
       }
     },
-    {
-      "type": "package",
-      "package": {
-        "name": "almende/vis",
-        "version": "v4.21.0",
-        "type": "drupal-library",
-        "source": {
-          "url": "https://github.com/almende/vis.git",
-          "type": "git",
-          "reference": "v4.21.0"
-        }
-      }
-    },
-    {
+    "kenwheeler/slick": {
       "type": "package",
       "package": {
         "name": "kenwheeler/slick",
@@ -67,41 +48,61 @@
           "type": "zip"
         }
       }
+    },
+    "furf/jquery-ui-touch-punch": {
+      "type": "package",
+      "package": {
+        "name": "furf/jquery-ui-touch-punch",
+        "version": "master",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/furf/jquery-ui-touch-punch/archive/refs/heads/master.zip",
+          "type": "zip"
+        }
+      }
+    },
+    "almende/vis": {
+      "type": "package",
+      "package": {
+        "name": "almende/vis",
+        "version": "v4.21.0",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/almende/vis/archive/refs/tags/v4.21.0.zip",
+          "type": "zip"
+        }
+      }
     }
-  ],
+  },
   "require": {
-    "php": ">=7.1.0",
-    "composer/installers": "^1.7",
-    "cweagans/composer-patches": "^1.6",
-    "drupal/calendar": "1.x-dev#1824fdc",
-    "drupal/console": "^1.9",
-    "drupal/core-composer-scaffold": "^8.8",
-    "drupal/core-project-message": "^8.8",
-    "drupal/media_entity_browser": "2.x-dev#31fdf95",
-    "drupal/pdf": "1.x-dev#1e33fbf",
-    "drupal/private_message": "2.x-dev#0d76aa9",
-    "drupal/redis": "^1.5",
-    "drush/drush": "^9.1",
-    "opigno/opigno_lms": "2.29",
+    "wikimedia/composer-merge-plugin": "2.0",
+    "composer/installers": "v1.12.0",
+    "cweagans/composer-patches": "1.7.1",
+    "drupal/core-composer-scaffold": "~9.3.0",
+    "opigno/opigno_lms": "^3.0.0",
     "platformsh/config-reader": "^2.4",
-    "psr/cache": "^1.0",
-    "wikimedia/composer-merge-plugin": "dev-master"
+    "drupal/redis": "^1.5"
+  },
+  "require-dev": {
+    "drush/drush": "^10",
+    "drupal/console": "~1.0"
   },
   "replace": {
     "h5p/h5p-core": "*",
     "h5p/h5p-editor": "*"
   },
   "config": {
-    "sort-packages": true,
+    "sort-packages": false,
     "preferred-install": {
-      "drupal/calendar": "source",
       "*": "dist"
     },
     "allow-plugins": {
       "composer/installers": true,
+      "cweagans/composer-patches": true,
       "drupal/core-composer-scaffold": true,
-      "drupal/core-project-message": true,
-      "cweagans/composer-patches": true
+      "wikimedia/composer-merge-plugin": true,
+      "drupal/console-extend-plugin": true,
+      "topfloor/composer-cleanup-vcs-dirs": true
     }
   },
   "conflict": {
@@ -125,6 +126,9 @@
       ],
       "web/themes/contrib/{$name}": [
         "type:drupal-theme"
+      ],
+      "web/libraries/ckeditor": [
+        "type:drupal-library-ckeditor"
       ],
       "drush/Commands/{$name}": [
         "type:drupal-drush"
