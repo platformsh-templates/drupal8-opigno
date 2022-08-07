@@ -3553,27 +3553,27 @@
         },
         {
             "name": "drupal/jquery_ui_datepicker",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/jquery_ui_datepicker.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jquery_ui_datepicker-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "19ffa245970ee4e9d908fa0c5d0761f567e487bb"
+                "url": "https://ftp.drupal.org/files/projects/jquery_ui_datepicker-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "8548435518d0ea111f98a7d70fe51562df3b2190"
             },
             "require": {
-                "drupal/core": "^8 || ^9",
+                "drupal/core": "^8 || ^9 || ^10",
                 "drupal/jquery_ui": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1642614454",
+                    "version": "8.x-1.3",
+                    "datestamp": "1659784650",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7261,6 +7261,10 @@
             ],
             "authors": [
                 {
+                    "name": "arnested",
+                    "homepage": "https://www.drupal.org/user/245635"
+                },
+                {
                     "name": "Berdir",
                     "homepage": "https://www.drupal.org/user/214652"
                 },
@@ -7269,20 +7273,16 @@
                     "homepage": "https://www.drupal.org/user/339326"
                 },
                 {
-                    "name": "Primsi",
-                    "homepage": "https://www.drupal.org/user/282629"
-                },
-                {
-                    "name": "arnested",
-                    "homepage": "https://www.drupal.org/user/245635"
-                },
-                {
                     "name": "gielfeldt",
                     "homepage": "https://www.drupal.org/user/366993"
                 },
                 {
                     "name": "miro_dietiker",
                     "homepage": "https://www.drupal.org/user/227761"
+                },
+                {
+                    "name": "Primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
                 }
             ],
             "description": "Ultimate cron",
