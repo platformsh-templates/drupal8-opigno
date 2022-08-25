@@ -102,7 +102,8 @@
       "drupal/core-composer-scaffold": true,
       "wikimedia/composer-merge-plugin": true,
       "drupal/console-extend-plugin": true,
-      "topfloor/composer-cleanup-vcs-dirs": true
+      "topfloor/composer-cleanup-vcs-dirs": true,
+      "drupal/core-project-message": true
     }
   },
   "conflict": {
