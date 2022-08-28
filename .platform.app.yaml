@@ -164,8 +164,7 @@ crons:
     # Run Drupal's cron tasks every 19 minutes.
     drupal:
         spec: '*/19 * * * *'
-        commands:
-            start: 'cd web ; drush core-cron'
+        commands: 'cd web ; drush core-cron'
 
 source:
   operations:
