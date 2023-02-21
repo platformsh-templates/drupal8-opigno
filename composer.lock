@@ -127,24 +127,24 @@
         },
         {
             "name": "commerceguys/intl",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/intl.git",
-                "reference": "cab3b55dbf8c1753fe54457404082c777a8c154f"
+                "reference": "f6200ca01f8c095f2a2602782b353770f738db87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/intl/zipball/cab3b55dbf8c1753fe54457404082c777a8c154f",
-                "reference": "cab3b55dbf8c1753fe54457404082c777a8c154f",
+                "url": "https://api.github.com/repos/commerceguys/intl/zipball/f6200ca01f8c095f2a2602782b353770f738db87",
+                "reference": "f6200ca01f8c095f2a2602782b353770f738db87",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1.3"
+                "php": ">=7.3"
             },
             "require-dev": {
                 "mikey179/vfsstream": "1.*",
-                "phpunit/phpunit": "^7.5"
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
             "extra": {
@@ -164,14 +164,17 @@
             "authors": [
                 {
                     "name": "Bojan Zivanovic"
+                },
+                {
+                    "name": "Jonathan Sacksick"
                 }
             ],
             "description": "Internationalization library powered by CLDR data.",
             "support": {
                 "issues": "https://github.com/commerceguys/intl/issues",
-                "source": "https://github.com/commerceguys/intl/tree/v1.1.1"
+                "source": "https://github.com/commerceguys/intl/tree/v1.1.2"
             },
-            "time": "2021-10-30T18:07:14+00:00"
+            "time": "2023-02-20T09:57:58+00:00"
         },
         {
             "name": "composer/installers",
