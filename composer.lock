@@ -864,16 +864,16 @@
         },
         {
             "name": "drupal-ckeditor-libraries-group/font",
-            "version": "4.20.1",
+            "version": "4.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-ckeditor-libraries-group/font.git",
-                "reference": "3a5572e78e64e2bfe60410203e6e03bf7f0d9f80"
+                "reference": "a038b039d6ef72720a1018b9e8dff8b9db7af071"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-ckeditor-libraries-group/font/zipball/3a5572e78e64e2bfe60410203e6e03bf7f0d9f80",
-                "reference": "3a5572e78e64e2bfe60410203e6e03bf7f0d9f80",
+                "url": "https://api.github.com/repos/drupal-ckeditor-libraries-group/font/zipball/a038b039d6ef72720a1018b9e8dff8b9db7af071",
+                "reference": "a038b039d6ef72720a1018b9e8dff8b9db7af071",
                 "shasum": ""
             },
             "type": "drupal-library",
@@ -894,7 +894,7 @@
                 "issues": "https://github.com/ckeditor/ckeditor4/issues",
                 "source": "https://github.com/ckeditor/ckeditor4/tree/master/plugins/font"
             },
-            "time": "2022-01-25T09:28:39+00:00"
+            "time": "2023-02-08T14:53:49+00:00"
         },
         {
             "name": "drupal/address",
