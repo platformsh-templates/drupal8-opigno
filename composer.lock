@@ -4012,7 +4012,7 @@
         },
         {
             "name": "drupal/jwt_auth_consumer",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "require": {
                 "drupal/core": "^9.0 || ^10.0",
                 "drupal/jwt": "*"
@@ -4020,8 +4020,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1682441648",
+                    "version": "2.0.1",
+                    "datestamp": "1693497456",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4054,7 +4054,7 @@
         },
         {
             "name": "drupal/jwt_auth_issuer",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "require": {
                 "drupal/core": "^9.0 || ^10.0",
                 "drupal/jwt": "*"
@@ -4062,8 +4062,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1682441648",
+                    "version": "2.0.1",
+                    "datestamp": "1693497456",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
